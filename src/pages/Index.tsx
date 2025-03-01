@@ -24,24 +24,7 @@ export default function Index() {
     <div className="min-h-screen flex flex-col">
       <Navbar />
       <main className="flex-grow">
-        <Hero 
-          title="Code Together in Real-Time" 
-          subtitle="CodeHuddle is a collaborative coding platform that makes pair programming easy and fun."
-          cta={
-            <div className="flex flex-col sm:flex-row gap-4 mt-8">
-              <Link to="/register">
-                <Button size="lg" className="w-full sm:w-auto">
-                  Get Started — It's Free
-                </Button>
-              </Link>
-              <Link to="/login">
-                <Button size="lg" variant="outline" className="w-full sm:w-auto">
-                  Log In
-                </Button>
-              </Link>
-            </div>
-          }
-        />
+        <Hero />
         <Features />
         <Pricing />
       </main>
